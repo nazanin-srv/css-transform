@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+ 
+ 
+ 
+ body{
+    background-image:url(https://png.pngtree.com/thumb_back/fh260/background/20201009/pngtree-science-or-technology-background-with-dynamic-particles-trendy-colorful-design-template-image_406781.jpg) ;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background-color:white;
+    display:flex;
+    
+    align-items:center;
+    justify-content:center;
+   
+}
+/* .square::after{
+    content: "";
+    display: inline-block;
+     width: 50px;
+    height: 50px;
+    background-color: gray;
+    
+} */
+
+.child::before{
+    content:" ";
+    
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    position: absolute;
+    z-index:-1;
+}
+
+.child{
+    width: 50px;
+    height: 50px;
+    background-color:rgba(128, 0, 128, 0.565);
+    
+ 
+}
+/* .gray-one{
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    position:fixed;
+    z-index:-1;
+
+} */
+
+
+section {
+    
+    display:flex;
+    flex-wrap: wrap;
+   
+    align-items:center;
+    justify-content:center;
+    gap: 1em;
+
+}
+.child{
+    transition:0.4s  ;
+}
+ .one:hover{
+transform:rotate(45deg);
+}
+.two:hover{
+transform:scaleY(0.5);
+}
+.three:hover{
+transform:scaleX(0.5);
+}
+.four:hover{
+    transform:scale(3);
+}
+.five:hover{
+    transform:scaleX(2);
+}
+.six:hover{
+  transform: translateX(20px);  
+}
+.seven:hover{
+    transform: translate(15px,25px);
+}
+.eight:hover{
+ transform: skewY(45deg);
+}
+.nine:hover{
+    transform: skewX(45deg);
+}
+.ten:hover{
+transform:scaleY(2);
+}
+.ele:hover{
+transform: translateY(20px);
+}
+.twe:hover{
+    transform:skewY(45deg) scale(1.9,2.2) translate(10px,-10px);
+
+}
+.thir:hover{
+    transform:perspective(47px) rotateY(45deg);
+}
+.for:hover{
+    transform:perspective(47px) rotateX(45deg);
+}
+.fif:hover{
+    transform:rotate(45deg);
+    transform-origin:top right;
+}
+.sixteen:hover{
+    transform:rotate(45deg);
+    transform-origin:bottom left;
+}
+.seventeen:hover{
+    transform:perspective(47px)rotateX(35deg);
+    transform-origin:bottom;
+}
+.eighteen:hover{
+    transform: perspective(95px) rotateX(45deg);
+    transform-origin:top;
+}
+.nineteen:hover{
+    transform: perspective(50px) rotateY(45deg);
+    transform-origin:left;
+}
+.twenty:hover{
+    transform:scaleX(2) ;
+    transform-origin:left;
+}
+.twenty-one:hover{
+    transform:scaleX(2) ;
+    transform-origin:right;
+}
+.twenty-two:hover{
+    transform:scale(2) ;
+    transform-origin:bottom left; 
+}
+.twenty-three:hover{
+    transform:scale(2) ;
+    transform-origin:top right;
+}
+.twenty-four:hover{
+    transform: perspective(100px) rotateY(55deg);
+    transform-origin:right;
+}
+.twenty-five:hover{
+    transform:scaleY(2) ;
+    transform-origin:top;
+}
+.twenty-six:hover{
+    transform:scaleY(2) ;
+    transform-origin:bottom;
+}
